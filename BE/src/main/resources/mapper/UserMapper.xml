@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.eh7.torihouse.user.mapper.UserMapper">
+    <select id="findByName">
+        SELECT *
+        FROM users
+        WHERE username = #{userName}
+    </select>
+    <insert id="save" useGeneratedKeys="true" keyProperty="id" parameterType="User">
+        INSERT INTO users (username, password)
+        VALUES (#{userName}, #{password})
+    </insert>
+</mapper>
