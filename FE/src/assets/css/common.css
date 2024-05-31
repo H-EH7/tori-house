@@ -1,0 +1,10 @@
+::-webkit-scrollbar { display: none; }
+
+* { font-family: "Gowun Dodum", sans-serif; }
+
+:root {
+    --color-bg-sample: #FDEEDC;
+    --color-bg-editor: #FFD8A9;
+    --color-border-editor: #E38B29;
+    --color-border-editor-2: #F1A661;
+}
