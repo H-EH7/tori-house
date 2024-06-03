@@ -13,7 +13,7 @@
         overflow: auto;
         min-width: 440px;
         max-width: 440px;
-        background-color: var(--color-bg-editor);
+        background-color: white;
     }
 
     .card {

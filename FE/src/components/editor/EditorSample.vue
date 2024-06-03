@@ -42,7 +42,7 @@
         margin: 0;
         padding: 0;
         min-width: 440px;
-        background-color: var(--color-bg-sample);
+        background-color:lightgrey;
     }
     
     #sample {
